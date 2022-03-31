@@ -1,3 +1,3 @@
 User-agent: *
-Sitemap: https://www.zoomkoding.com/sitemap/sitemap-index.xml
-Host: https://www.zoomkoding.com
+Sitemap: https://7rohj.github.io/sitemap/sitemap-index.xml
+Host: https://7rohj.github.io
