@@ -2,11 +2,11 @@ module.exports = {
   title: `7rohj.github.io`,
   description: `개 발 일 지`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
-  siteUrl: `https://7rohj.github.io/`,
+  siteUrl: `https://7rohj.github.io`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
-      repo: ``, // `zoomkoding/zoomkoding-gatsby-blog`,
+      repo: `https://7rohj.github.io`, // `zoomkoding/zoomkoding-gatsby-blog`,
     },
   },
   ga: '0', // Google Analytics Tracking ID
@@ -15,12 +15,12 @@ module.exports = {
     bio: {
       role: `데이터 분석가`,
       description: ['사람에 가치를 두는', '능동적으로 일하는', '이로운 것을 만드는'],
-      thumbnail: 'ezgif.com-gif-maker.gif', // Path to the image in the 'asset' folder
+      thumbnail: 'ezgif.com-gif-maker (2).gif', // Path to the image in the 'asset' folder
     },
     social: {
-      github: ``, // `https://github.com/7rohj`,
-      #linkedIn: ``, // `https://www.linkedin.com/in/jinhyeok-jeong-800871192`,
-      email: ``, // `khj291400@naver.com`,
+      github: `https://github.com/7rohj`, // `https://github.com/7rohj`,
+      linkedIn: ``, // `https://www.linkedin.com/in/jinhyeok-jeong-800871192`,
+      email: `khj291400@naver.com`, // `khj291400@naver.com`,
     },
   },
 
@@ -44,7 +44,7 @@ module.exports = {
       // ========================================================
       {
         date: '2022.03 ~',
-        activity: '개인 블로그 개발 및 운영',
+        activity: '개인 블로그 개설',
         links: {
           post: '/gatsby-starter-zoomkoding-introduction',
           github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
