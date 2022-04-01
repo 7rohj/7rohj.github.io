@@ -15,7 +15,7 @@ module.exports = {
     bio: {
       role: `데이터 분석가`,
       description: ['사람에 가치를 두는', '능동적으로 일하는', '이로운 것을 만드는'],
-      thumbnail: 'ezgif.com-gif-maker (2).gif', // Path to the image in the 'asset' folder
+      thumbnail: '08B00771-13C0-42B6-B021-847A2BE8D027 (2).gif', // Path to the image in the 'asset' folder
     },
     social: {
       github: `https://github.com/7rohj`, // `https://github.com/7rohj`,
