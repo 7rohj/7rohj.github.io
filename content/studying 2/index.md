@@ -100,9 +100,9 @@ public class Exam {
          }
          System.out.print(k);
       }
-}           
+}
+```           
 `-8`
-```
 
 i = 3이라서 case 3 부터 시작,<br/>
 0<br/>
