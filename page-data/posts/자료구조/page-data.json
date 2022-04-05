@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-category-template-js",
-    "path": "/posts/자료구조",
-    "result": {"pageContext":{"currentCategory":"자료구조","categories":["All","자격증","자료구조","블로그","featured"],"edges":[{"node":{"id":"2c0f44b6-9c6d-52fb-aacd-d8a9ba3e8b64","excerpt":"내부적으로 배열을 사용하여 조회,삽입,삭제 모두 안에 수행하기 위한 특별한 자료구조다. 배열의 인덱스를 유일하게(혹은 그에 가깝게) 지정하기 위해서 데이터와 연관된 고유한 숫자를 만들어낸 후 그것을 인덱스로 사용한다. 또 일반적으로 순서를 보장하지 않기 때문에, 순서, 관계가 있는 목적에는 적합하지 않다. Hash funciton 데이터에 연관된 고유한 값을 만들기 위해서 해시 함수를 사용한다. 이 해시 함수를 통해서 나온 결과값을 해시 값(혹은 해쉬 코드,해쉬)라고 하고 이것을 이용해 데이터에 대한 접근 연산을 수행한다. 가장 많이 쓰이는 해시 함수는 나머지 연산(modulo)를 이용한다. 키  를 어떤 정해진 수  로 나눈 나머지를  를 저장하는 버킷의 인덱스로 사용하는 것이다.\r\n→  일반적으로  는 적절히 큰 소수(prime number)를 사용하는데 이유는 다음과 같다. 만약 D를 소수가 아닌 값이라 하면, D의 모든 약수는 자신의 배수가 곧 키값이 된다. 해시충돌이 많이…","fields":{"slug":"/newposting/"},"frontmatter":{"categories":"자료구조","title":"Hash Table에 대해서 완전 자세하게 알아보자.","date":"April 01, 2022"}},"next":{"fields":{"slug":"/gatsby-github-blog/"}},"previous":{"fields":{"slug":"/studying/"}}}]}},
-    "staticQueryHashes": ["1073350324","1956554647","2938748437"]}
