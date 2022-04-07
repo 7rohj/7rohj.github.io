@@ -43,7 +43,24 @@ fitted_multi_model = multi_model.fit()
 fitted_multi_model.summary()
 ```
 
+### 결과
 ![사진](./[ols_result.png])
+
+``` bash
+## boston data에서 원하는 변수만 뽑아오기
+x_data2 = boston[['CRIM','RM', 'LSTAT', 'B', 'TAX', 'AGE', 'ZN', 'NOX', 'INDUS']]
+x_data2.head()
+
+# 상수항 추가
+x_data2_ = sm.add_constant(x_data2, has_constant = "add")
+
+# 회귀모델 적합
+multi_model2 = sm.OLS(target, x_data2_)
+fitted_multi_model2 = multi_model2.fit()
+
+# 결과 출력
+fitted_multi_model2.summary()
+```
 
 
 
