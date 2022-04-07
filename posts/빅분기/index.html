@@ -68,8 +68,10 @@
 데이터 세트에 따라 피처 X에 대해 Target Y 값의 관계를 단순 선형 회귀 직선형으로 표현한 것보다 다항 회귀 곡선형으로 표현한 것이 더 예측 성능이 높은 경우가 있다. 다항 회귀를 이용한 과소적합 및 과적합 이해 다항 회귀는 피처의 직선적 관계가 아닌 복잡한 다항 관계를 모델링할 수 있다. 다항식의 차수가 높아질 수록 매우 복잡한 피처 간의 관계까지 모델링이 가능하다.
 하지만 다항 회귀의 차수를 높일 수록  너무 맞춘 학습이 이뤄져서 정작 테스트 데이터 환경에서는 오히려 예측 정확도가 떨어진다.
 한다. 편향ㅡ분산 트레이드오프(Bias-Variance Trade off) 편향ㅡ분산 트레이드오프는 머신러닝이 극복해야 할 가장 중요한 이슈 중 하나다. …</p><div class="info"><div class="date">April 07, 2022</div><div class="categories"><div class="category">빅분기</div></div></div></a></div><div class="post-card-wrapper"><a class="post-card" href="/prods 2 - 1/"><div class="title">선형회귀(2)</div><p class="description">선형회귀분석의 기본적인 가정이 있다.
-선형회귀분석을 하기 전에 검토해봐야할 몇 가지 가정.   선형성 독립변수와 종속변수가 선형적이어야 한다. 잔차 정규성 잔차의 기댓값은 0이며 정규분포를 이루어야 한다. 잔차 독립성 잔차들은 서로 독립적이어야 한다 잔차 등분산성 잔차들의 분산이 일정해야 한다. 다중 공산성(VIF) 다중 회귀분석을 수행할 경우 3개 이상의 독립변수 간에 상관관계로 인한 문제가 없어야 한다. [아래는 파이썬을 통해 다중공산성 확인 및 변수 제거 실습한 이미지 이다]
-데이터는  사진</p><div class="info"><div class="date">April 05, 2022</div><div class="categories"><div class="category">빅분기</div></div></div></a></div><div class="post-card-wrapper"><a class="post-card" href="/prods 2/"><div class="title">선형회귀</div><p class="description">단순 선형 회귀는 독립변수도 하나, 종속변수도 하나인 선형 회귀이다.
+   선형성 독립변수와 종속변수가 선형적이어야 한다. 잔차 정규성 잔차의 기댓값은 0이며 정규분포를 이루어야 한다. 잔차 독립성 잔차들은 서로 독립적이어야 한다 잔차 등분산성 잔차들의 분산이 일정해야 한다. 다중 공선성(VIF) 다중 회귀분석을 수행할 경우 3개 이상의 독립변수 간에 상관관계로 인한 문제가 없어야 한다. [아래는 파이썬을 통해 다중공산성 확인 및 변수 제거 실습한 이미지 이다]
+데이터는  〰 1 〰  OLS 결과 picture 〰 2 〰  OLS 결과 picture *Warnings 에서의 2번 항목이 생겼다. 다중공산성 주의! 강한 다중공선성 또는 다른 numerical 문제가 발생했다고 암시. 〰 3 〰  결과 picture 그림에는 없지만 heatmap을 이용해 상관 matrix를 확인했을때 가 빈출되는 것은
+충분히 을 의심할 수 있다. 즉, 그 변수들은 제거해 주는게 이롭다고 판단할 수 있는 것이다.
+위 그림에서 …</p><div class="info"><div class="date">April 05, 2022</div><div class="categories"><div class="category">빅분기</div></div></div></a></div><div class="post-card-wrapper"><a class="post-card" href="/prods 2/"><div class="title">선형회귀</div><p class="description">단순 선형 회귀는 독립변수도 하나, 종속변수도 하나인 선형 회귀이다.
 실제 값과 회귀 모델의 차이에 따른 오류 값을 남은 오류, 즉 잔차라고 부르며
 은 바로 전체 데이터의 이다.
 동시에 오류 값 합이 최소가 될 수 있는 최적의 회귀 계수를 찾는다는 의미도 된다. 보통 오류 합을 계산할 때는 , 을 취한다.
